@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    max-width: 1300px;
+    height: 85%;
+    max-height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-body {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-body {
+    height: 100%;
+    width: 40%;
+    background: url(./media/sergey-kvint-NoGvzItEho0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background {
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80%;
+}
+
+.title {
+    color: white;
+    font-size: 5rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.logo {
+    background: url(./media/odin-lined.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80%;
+    width: 20%;
+}
+
+.acknowledgement {
+    font-size: 1rem;
+    color: white;
+    position: relative;
+    top: 18%;
+}
+
+.upper-paragraph-one {
+font-size: 2rem;
+color: black;
+}
+
+.upper-paragraph-two {
+    font-size: 2rem;
+    color: black;
+}
+
+form {
+    background-color: white;
+    box-shadow: 5px 10px rgb(218, 218, 218);
+    padding: 30px;
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+}
