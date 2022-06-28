@@ -149,10 +149,3 @@ button {
     color: rgb(90, 119, 90);
 }
 
-.password-form > input:invalid {
-    border: 2px solid red;
-}
-
-.confirm-password > input:invalid {
-    border: 2px solid red;
-}
