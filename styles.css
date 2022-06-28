@@ -141,6 +141,10 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: rgb(29, 53, 29);
+}
+
 .have-account {
     margin-left: 30px;
 }
