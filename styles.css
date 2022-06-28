@@ -95,12 +95,64 @@ form {
     height: 25%;
 }
 
-.first-name {
+.first-name, .email-form, .password-form, .last-name, .phone-number, .confirm-password {
     display: flex;
     flex-direction: column;
+    width: 75%;
+    padding: 10px;
 }
 
-.last-name {
+.inner-form-container {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+}
+
+.row-one {
+    width: 100%;
+}
+
+.row-two {
+
+    width: 100%;
+}
+
+.form-title {
+    position: relative;
+    bottom: 10%;
+    left: 1%;
+}
+
+.form-title > h1 {
+    color: rgb(59, 59, 59);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    height: 25px;
+}
+
+button {
+    background-color: rgb(90, 119, 90);
+    width: 25%;
+    height: 5%;
+    border-radius: 5%;
+    margin: 30px;
+    color: white;
+    border: none;
+}
+
+.have-account {
+    margin-left: 30px;
+}
+
+.log-in {
+    color: rgb(90, 119, 90);
+}
+
+.password-form > input:invalid {
+    border: 2px solid red;
+}
+
+.confirm-password > input:invalid {
+    border: 2px solid red;
 }

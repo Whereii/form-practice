@@ -23,28 +23,52 @@
         <div class="upper-paragraph-two">
             <p>You know you want to.</p>
         </div>
-        <form action="">
-           <h1>Let's do this!</h1>
-            
-           <div class="row-one">
+        <form action="post" id="form">
+            <div class="form-title">
+                <h1>Let's do this!</h1>
+            </div>
+            <div class="inner-form-container">
+                <div class="row-one">
 
-                <div class="first-name">
-                <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="firstName">
+                    <div class="first-name">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="firstName">
+                    </div>
+
+                    <div class="email-form">
+                        <label for="email-form">EMAIL</label>
+                        <input type="email" name="email" id="email-form">
+                    </div>
+
+                    <div class="password-form">
+                        <label for="password-form">PASSWORD</label>
+                        <input type="password" id="password-form" name="password" required>
+                    </div>
+
                 </div>
 
+                    <div class="row-two">
 
-                <div class="last-name">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" name="lastName">
-                </div>
+                        <div class="last-name">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
 
+                        <div class="phone-number">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="number" name="phone-number" id="phone-number">
+                        </div>
 
+                        <div class="confirm-password">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+                    </div>
             </div>
 
         </form>
         <button>Create Account</button>
-        <div><p>Already have an account? Log in</p></div>
+        <div class="have-account"><p>Already have an account? <span class="log-in">Log in</span></p></div>
     </div>
   </div>  
 </body>
